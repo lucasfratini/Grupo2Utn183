@@ -15,32 +15,13 @@ body {
 
 	font-family: Arial, sans-serif;
 	background-color: #020202; 
-	color:white;  
+	color:white; 
+	background-image: url("./imagenes/hero-background-main-image.png"); 
+	background-repeat: no-repeat;
+	background-size: cover;
 }
-.banner{
-	background-image: url('./imagenes/hero-background-main-image.png');
- 	background-repeat: no-repeat;
-	background-attachment: fixed;
-	color: #fff;
-	padding: 200px 0;
-	margin-left: 15px;
-	margin-right: 0;
-	background-size: 99%;
-	
-}
-.banner p{
-	margin-left: 30px;
-	text-align: left;
-	font-size: 25px;
-}
-.banner2{
-	width: 100%;
 
-}
-.home{
-	width: 100%;
-	
-}
+
 h1{
     letter-spacing: 10px;
     margin-left: 100px;
@@ -49,9 +30,6 @@ h2{
 	text-align: center;
 	margin-left: 25px;
 	font-size: 50px;
-}
-div{
-	text-align: left;
 }
 
 nav ul li {
@@ -84,4 +62,38 @@ footer{
 }
 .entrenadores{
 	width: 100%;
+}
+.contenedor{
+
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+
+}
+.imagen{
+	flex-shrink: 0;
+	margin-right: 20px;
+}
+.texto{
+	flex-grow: 1;
+}
+.contenedor1 h1{
+	text-align: center;
+}
+.principal{
+	width: 100%;
+}
+.intermedio h3{
+	text-align: center;
+}
+#yoga{
+	width: 800px;
+	height: 600px;
+}
+#entrenadores{
+	width: 100%;
+}
+#boxeo{
+	width: 800px;
+	height: 600px;
 }

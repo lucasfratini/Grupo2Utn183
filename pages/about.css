@@ -1,4 +1,10 @@
-.banner{
-
+body{
     background-image: url('../imagenes/mujerfitness.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.banner p{
+    text-align: left;
+    margin-left: 30px;
 }
