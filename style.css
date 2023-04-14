@@ -1,0 +1,87 @@
+/* Estilos de la cabecera */
+header {
+	background-color: #0d0d0d;
+	color: #eff3f8;
+	padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 110px;
+	margin-bottom: 15px;
+	
+}
+/*Estilo del Body*/
+body {
+
+	font-family: Arial, sans-serif;
+	background-color: #020202; 
+	color:white;  
+}
+.banner{
+	background-image: url('./imagenes/hero-background-main-image.png');
+ 	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: #fff;
+	padding: 200px 0;
+	margin-left: 15px;
+	margin-right: 0;
+	background-size: 99%;
+	
+}
+.banner p{
+	margin-left: 30px;
+	text-align: left;
+	font-size: 25px;
+}
+.banner2{
+	width: 100%;
+
+}
+.home{
+	width: 100%;
+	
+}
+h1{
+    letter-spacing: 10px;
+    margin-left: 100px;
+}
+h2{
+	text-align: center;
+	margin-left: 25px;
+	font-size: 50px;
+}
+div{
+	text-align: left;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+nav ul li a {
+	color: #ebeced;
+	text-decoration: none;
+}
+
+.logo{
+    width: 10%;
+}
+
+footer{
+  width: 100%;
+  background-color: #0d0c0c;
+  color: #f3f5f7;
+  padding: 10px;
+  text-align: center;
+}
+.primero{
+	display: flex;
+	text-align: right;
+}
+.segundo{
+	display: flex;
+	text-align: left;
+}
+.entrenadores{
+	width: 100%;
+}
