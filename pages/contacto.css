@@ -117,6 +117,8 @@ h3{
     border: 0;
     text-transform: uppercase;
     padding: 1em;
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
 
 .contact-form form button:hover,
@@ -125,6 +127,8 @@ h3{
     color: #fff;
     transition: background-color 1s ease-out;
     outline: 0;
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
 
 

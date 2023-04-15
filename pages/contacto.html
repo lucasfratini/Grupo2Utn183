@@ -10,9 +10,10 @@
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <!-- ANIMATE CSS -->
+    <!-- ANIMACION CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link rel="stylesheet" type="text/css" href="../style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
     <header>
@@ -34,54 +35,66 @@
         <div class="contact-wrapper animated bounceInUp">
             <div class="contact-form">
                 <h3>Contáctanos</h3>
-                <form id="step-1">
+                <div class="step-1">
+                <form id="formulario">
                     <p>
                         <label for="nombre">Nombre:</label>
-                        <input type="text" id="nombre" name="nombre" required>
+                        <input type="text" id="nombre" name="nombre" >
                     </p>
                     <p>
                         <label for="apellido">Apellido:</label>
-                        <input type="text" id="apellido" name="apellido"required>
+                        <input type="text" id="apellido" name="apellido">
                     </p>
                     <p>
                         <label for="edad">Edad:</label>
-                        <input type="text" id="edad"name="edad" required>
+                        <input type="text" id="edad"name="edad" >               
                     </p>
-                    <p>
-                        
+                    <p>                        
                         <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" required>
+                        <input type="email" id="email" name="email" >                        
                     </p>
                     <p>
                         <label for="telefono">Teléfono:</label>
-                        <input type="tel" id="telefono"name="telefono" required>
+                        <input type="tel" id="telefono"name="telefono" >                        
                     </p>
                     <p>
                         <label for="asunto">Asunto:</label>
-                        <input type="text" id="asunto" name="asunto" required>
+                        <input type="text" id="asunto" name="asunto" >                        
                     </p>
                     <p class="block">
                        <label for="mensaje">Mensaje:</label> 
-                        <textarea name="mensaje" id="mensaje" rows="3"></textarea>
+                        <textarea name="mensaje" id="mensaje" rows="3"></textarea>                       
                     </p>
                     <p class="block">
-                        <button type="button" id="next-btn">Enviar</button><br>
+                        <button type="button" id="next-btn">Resumen no editable</button><br>
+                        <button type="submit" id="eviar" value="Enviar">Enviar</button>
                     </p>
                 </form>
+                </div>
             </div>
+           
             <div class="contact-info">
-                <h3>Información sobre el grupo mº 2-UTN-183</h3>
-                <h4>Integrantes</h4>
-                <ul>
-                    <li>Fratini Lucas</li>
-                    
-                </ul>
-              
+                <h3>Información Personal:</h3>
+                    <ul>
+                        <li>Fratini Lucas</li>
+                        <li>44 años</li>
+                        <li>Soltero sin hijos</li>
+                        <li>Vivo en la ciudad de Carmen de Patagones</li>
+                        <li>Provincia de Bs As</li>
+                     </ul>
+                     <h3>Experiencia en Desarrollo:</h3>
+                     <ul>
+                        <li>Aprendiendo html</li>
+                        <li>Aprendiendo css</li>
+                        <li>Aprendiendo javascript</li>
+                     </ul>
+                                   
                 
             </div>
         </div>
 
     </div>
+
     <form id="step-2">
        <p>RESUMEN NO EDITABLE</p>
         <div id="summary"></div>
@@ -89,6 +102,7 @@
       <footer>
 		<p>Derechos reservados a Fratini Lucas  grupo 2 UTN-183 © 2023</p>
 	</footer> 
+    <script src="validar.js"></script>
     <script src="contacto.js"></script>
 </body>
 </html>
