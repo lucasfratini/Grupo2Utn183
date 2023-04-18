@@ -1,43 +1,38 @@
+/* Estilos generales */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+    background-color: #ebebeb;
+}
+
 /* Estilos de la cabecera */
 header {
-	background-color: #0d0d0d;
-	color: #eff3f8;
+	background-color: #fff;
+	color: #193452;
 	padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 110px;
-	margin-bottom: 15px;
-	
+    height: 70px;
 }
-/*Estilo del Body*/
-body {
-
-	font-family: Arial, sans-serif;
-	background-color: #020202; 
-	color:white; 
-	background-image: url("./imagenes/hero-background-main-image.png"); 
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
 
 h1{
     letter-spacing: 10px;
     margin-left: 100px;
 }
-h2{
-	text-align: center;
-	margin-left: 25px;
-	font-size: 50px;
-}
 
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
 nav ul li {
 	display: inline-block;
 	margin-right: 20px;
 }
 nav ul li a {
-	color: #ebeced;
+	color: #193452;
 	text-decoration: none;
 }
 
@@ -45,58 +40,33 @@ nav ul li a {
     width: 10%;
 }
 
-footer{
-  width: 100%;
-  background-color: #0d0c0c;
-  color: #f3f5f7;
-  padding: 10px;
-  text-align: center;
-}
-.primero{
-	display: flex;
-	text-align: right;
-}
-.segundo{
-	display: flex;
-	text-align: left;
-}
-.entrenadores{
-	width: 100%;
-}
-.contenedor{
-
-	display: flex;
-	align-items: center;
-	justify-content: flex-start;
-
-}
-.imagen{
-	flex-shrink: 0;
-	margin-right: 20px;
-}
-.texto{
-	flex-grow: 1;
-}
-.contenedor1 h1{
+/* Estilos del banner */
+.banner {
+	background-image: url('../multimedia/banner3.png');
+	
+    background-position: center;
+	color: #fff;
+	padding: 200px 0;
 	text-align: center;
 }
-.principal{
-	width: 100%;
+.banner h2 {
+    color: #fff;
+	font-size: 48px;
+	margin: 0;
 }
-.intermedio h3{
-	text-align: center;
+.banner p {
+	font-size: 24px;
+	margin: 20px 0 0 0;
 }
-#yoga{
-	width: 800px;
-	height: 600px;
+
+h2{
+    text-align: center;
+    font-size: 38px;
+    color: #193452;
 }
-#entrenadores{
-	width: 100%;
-}
-#boxeo{
-	width: 800px;
-	height: 600px;
-}
+
+
+/* Estilos de los productos */
 .productos {
 	margin: 50px 0;
 	padding: 0 20px;
@@ -149,6 +119,17 @@ footer{
 .btn:hover{
    border: 2px solid  #193452;
 }
+
+footer{
+    width: 100%;
+    background-color: #fff;
+	color: #193452;
+	padding: 10px;
+    text-align: center;
+}
+
+/* products.html */
+
 .formSearch{
     width: 100%;
     height: 50px;

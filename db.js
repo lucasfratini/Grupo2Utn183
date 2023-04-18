@@ -1,0 +1,192 @@
+const productosGym = [
+
+{
+   id:1,
+   nombre:"p1",
+   descripcion:"lorem",
+   precio:1000,
+   imagen:"./imagenes/imagenes/productos/p1.jpeg",
+   categoria:'Barras',
+   destacado:true
+},
+{
+    id:2,
+    nombre:"",
+    descripcion:"",
+    precio:100,
+    imagen:"./imagenes/imagenes/productos/p2.jpeg",
+    categoria:'Barras',
+    destacado:true
+},
+{
+    id:3,
+    nombre:"",
+    descripcion:"",
+    precio:100,
+    imagen:"./imagenes/imagenes/productos/p3.jpeg",
+    categoria:'Barras',
+    destacado: false
+},
+{
+    id:4,
+    nombre:"",
+    descripcion:"",
+    precio:100,
+    imagen:"./imagenes/imagenes/productos/p4.jpeg",
+    categoria:'Mancuernas',
+    destacado:false
+},
+{
+    id:5,
+    nombre:"",
+    descripcion:"",
+    precio:100,
+    imagen:"./imagenes/imagenes/productos/p5.jpeg",
+    categoria:'Barras',
+    destacado:false
+},
+{
+    id:6,
+    nombre:"",
+    descripcion:"",
+    precio:100,
+    imagen:"./imagenes/imagenes/productos/p6.jpeg",
+    categoria:'Barras',
+    destacado:false
+},
+{
+    id:7,
+    nombre:"",
+    descripcion:"",
+    precio:100,
+    imagen:"./imagenes/imagenes/productos/p7.jpeg",
+    categoria:'Barras',
+    destacado:false
+},
+{
+    id:8,
+    nombre:"",
+    descripcion:"",
+    precio:100,
+    imagen:"./imagenes/imagenes/productos/p8.jpeg",
+    categoria:'Barras',
+    destacado:false
+},
+{
+    id:9,
+    nombre:"",
+    descripcion:"",
+    precio:100,
+    imagen:"./imagenes/imagenes/productos/p9.jpeg",
+    categoria:'Barras',
+    destacado:false
+},
+{
+    id:10,
+    nombre:"",
+    descripcion:"",
+    precio:100,
+    imagen:"./imagenes/imagenes/productos/p10.jpeg",
+    categoria:'',
+    destacado:false
+},
+{
+    id:11,
+    nombre:"",
+    descripcion:"",
+    precio:100,
+    imagen:"./imagenes/imagenes/productos/p11.jpeg",
+    categoria:'',
+    destacado:true
+},
+{
+    id:12,
+    nombre:"",
+    descripcion:"",
+    precio:100,
+    imagen:"./imagenes/imagenes/productos/p12.jpeg",
+    categoria:'Barras',
+    destacado:false
+},
+{
+    id:13,
+    nombre:"",
+    descripcion:"",
+    precio:100,
+    imagen:"./imagenes/imagenes/productos/p13.jpeg",
+    categoria:'Mancuernas',
+    destacado:false
+},
+{
+    id:14,
+    nombre:"",
+    descripcion:"",
+    precio:100,
+    imagen:"./imagenes/imagenes/productos/p14.jpeg",
+    categoria:'Kits',
+    destacado:false
+},
+{
+    id:15,
+    nombre:"",
+    descripcion:"",
+    precio:100,
+    imagen:"./imagenes/imagenes/productos/p15.jpeg",
+    categoria:'Kits',
+    destacado:false
+},
+{
+    id:16,
+    nombre:"",
+    descripcion:"",
+    precio:100,
+    imagen:"./imagenes/imagenes/productos/p16.png",
+    categoria:'',
+    destacado:false
+},
+{
+    id:17,
+    nombre:"",
+    descripcion:"",
+    precio:100,
+    imagen:"./imagenes/imagenes/productos/p17.png",
+    categoria:'',
+    destacado:false
+},
+{
+    id:18,
+    nombre:"",
+    descripcion:"",
+    precio:100,
+    imagen:"./imagenes/imagenes/productos/p18.png",
+    categoria:'',
+    destacado:false
+},
+{
+    id:19,
+    nombre:"",
+    descripcion:"",
+    precio:100,
+    imagen:"./imagenes/imagenes/productos/p19.png",
+    categoria:'',
+    destacado:false
+},
+{
+    id:20,
+    nombre:"",
+    descripcion:"",
+    precio:100,
+    imagen:"./imagenes/imagenes/productos/p20.png",
+    categoria:'Kits',
+    destacado:false
+},
+{
+    id:21,
+    nombre:"Mancuernas plasticas",
+    descripcion:"Mancuernas no profecionales etc",
+    precio:11000,
+    imagen:"./imagenes/imagenes/productos/p21.png",
+    categoria:'Mancuernas',
+    destacado:false
+}
+];
