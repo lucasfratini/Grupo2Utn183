@@ -27,7 +27,7 @@ function htmlCards(arrayProductos){
                                     <h3>${elemento.nombre}</h3>
                                     <p>${elemento.descripcion}</p>
                                     <p>${elemento.precio}</p>
-                                    <a href="#">Ver más</a>
+                                    
                              
                             `
         
