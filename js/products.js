@@ -1,3 +1,5 @@
+
+const arrayCarrito = []
 const containerProducts = document.querySelector('#containerProducts')
 const inputSearch = document.querySelector('#inputSearch')
 
@@ -21,13 +23,11 @@ function htmlCards(arrayProductos){
   
         divProduct.innerHTML += 
                                   
-                              `                        
-                                                   
+                              `                                                                           
                                     <img src=.${elemento.imagen} alt="producto">
                                     <h3>${elemento.nombre}</h3>
                                     <p>${elemento.descripcion}</p>
-                                    <p>${elemento.precio}</p>
-                                    
+                                    <p>${elemento.precio}</p>                                   
                              
                             `
         
