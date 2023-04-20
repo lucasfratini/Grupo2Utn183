@@ -2,7 +2,7 @@ const productosGym = [
 
 {
    id:1,
-   nombre:"p1",
+   nombre:"Barra p1",
    descripcion:"lorem",
    precio:1000,
    imagen:"./imagenes/imagenes/productos/p1.jpeg",
@@ -11,7 +11,7 @@ const productosGym = [
 },
 {
     id:2,
-    nombre:"",
+    nombre:"Barras con tiras",
     descripcion:"",
     precio:100,
     imagen:"./imagenes/imagenes/productos/p2.jpeg",
@@ -20,7 +20,7 @@ const productosGym = [
 },
 {
     id:3,
-    nombre:"",
+    nombre:"Barra pepe",
     descripcion:"",
     precio:100,
     imagen:"./imagenes/imagenes/productos/p3.jpeg",

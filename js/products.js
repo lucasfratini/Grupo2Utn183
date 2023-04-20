@@ -27,7 +27,7 @@ function htmlCards(arrayProductos){
                                     <h3>${elemento.nombre}</h3>
                                     <p>${elemento.descripcion}</p>
                                     <p>${elemento.precio}</p>
-                                    <a href="#">Ver más</a>
+                                    
                              
                             `
         
@@ -50,7 +50,7 @@ boton.addEventListener('click', function(evento){
     console.log(id);
     id = id.slice(9)
     console.log(id);
-    let busqueda =  producotsGym.find( (elemento) =>  { return elemento.id == id})
+    let busqueda =  productosGym.find( (elemento) =>  { return elemento.id == id})
     console.log(busqueda);
     arrayCarrito.push(busqueda)
     console.log(arrayCarrito);
