@@ -14,7 +14,7 @@ header {
 body {
 
 	font-family: Arial, sans-serif;
-	background-color: #020202; 
+	background-color: #252222; 
 	color:white; 
 	
 }
@@ -45,6 +45,7 @@ nav ul li a {
 
 footer{
   width: 100%;
+ 
   background-color: #0d0c0c;
   color: #f3f5f7;
   padding: 10px;
@@ -202,4 +203,9 @@ footer{
 	background-color: #036726;
 	color: #ebeced;
 	align-items: center;
+	margin-bottom: 15px;
+  }
+  #curso{
+	display: block;
+	margin: auto;
   }
